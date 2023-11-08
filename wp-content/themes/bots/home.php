@@ -80,4 +80,86 @@ Template Name: Home
 
 </section>
 
+<section class="cards">
+        <div class="container">
+            <h2 class="cards__title">Popular Products</h2>
+            <button class="cards__button btn-modal">Add product</button>
+            <div class="cards__wrapper">
+                <div class="card">
+                    <div class="card__wrapper">
+                        <div class="card__img">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/card_white_mouse.png" alt="mouse">
+                        </div>
+
+                        <div class="details">
+                            <a class="card__title" href="#">iOS mouse</a>
+                            <div class="card__prices">
+                                <div class="card__price">$ 249.99</div>
+                                <div class="card__discount">/<span>$ 249.99</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <div class="card__img">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/card_speaker.png" alt="speaker">
+                        </div>
+
+                        <div class="details">
+                            <a class="card__title" href="#">Black iPhone Speaker</a>
+                            <div class="card__prices">
+                                <div class="card__price">$ 249.99</div>
+                                <div class="card__discount">/<span>$ 249.99</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__wrapper">
+                        <div class="card__img">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/card_keyborad.png" alt="keyboard">
+                        </div>
+
+                        <div class="details">
+                            <a class="card__title" href="#">iOS Keyboard</a>
+                            <div class="card__prices">
+                                <div class="card__price">$ 249.99</div>
+                                <div class="card__discount">/<span>$ 249.99</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="substrate">
+            <form class="form" action="#">
+                <div class="form__title">Adding a Product</div>
+                <div class="form__inputs">
+                    <input class="form__input input-name" type="text" name="product-name" placeholder="Product name">
+                    <input class="form__input input-price" type="text" name="product-price" placeholder="Product price">
+                    <input class="form__input input-discount" type="text" name="product-discount" placeholder="Product price with discount">
+                    <input class="form__input input-img" type="file" name="product-img" multiple>
+                    <input class="form__input input-date" type="date" name="adding-date">
+                    <select name="uniqueness" id="uniqueness-select">
+                        <option value="rare">Rare</option>
+                        <option value="frequent">Frequent</option>
+                        <option value="unusual">Unusual</option>
+                    </select>
+
+                </div>
+                <input class="form__btn" type="submit" value="Submit">
+                <div class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox" name="checkbox" id="checkbox" checked required>
+                    <label class="form__checkbox-label" for="checkbox">I give my consent to the processing of personal data.</label>
+                </div>
+            </form>
+        </div>
+    </section>
+
 <?php get_footer(); ?>
