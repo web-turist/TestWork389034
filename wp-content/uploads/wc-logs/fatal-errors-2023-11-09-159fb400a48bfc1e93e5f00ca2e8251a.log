@@ -1,0 +1,158 @@
+2023-11-09T09:41:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_form_field(), 1 passed in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 234 and at least 2 expected in /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2786
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php(234): woocommerce_form_field(Array)
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): demolink_woo_add_custom_fields('')
+#2 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#7 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#8 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#11 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 2786
+
+2023-11-09T09:54:37+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_input() in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:239
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): demolink_woo_add_custom_fields('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 239
+
+2023-11-09T13:11:45+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/home.php:97
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/home.php on line 97
+
+2023-11-09T13:17:26+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/home.php:100
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/home.php on line 100
+
+2023-11-09T14:06:34+00:00 CRITICAL Cannot redeclare custom_template_in_woocommerce() (previously declared in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:247) in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 265
+
+2023-11-09T14:07:12+00:00 CRITICAL Cannot redeclare custom_template_in_woocommerce() (previously declared in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:247) in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 265
+
+2023-11-09T14:07:49+00:00 CRITICAL Cannot redeclare custom_html_block() (previously declared in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:276) in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 281
+
+2023-11-09T14:07:54+00:00 CRITICAL Cannot redeclare custom_html_block() (previously declared in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:276) in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 281
+
+2023-11-09T17:25:15+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php on line 16
+
+2023-11-09T18:45:11+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php on line 20
+
+2023-11-09T19:27:19+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php on line 20
+
+2023-11-09T19:27:53+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php on line 20
+
+2023-11-09T20:05:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_custom_woocommerce_loop" not found or invalid function name in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/class-wp.php(796): do_action_ref_array('wp', Array)
+#3 /Applications/MAMP/htdocs/bots/wp-includes/functions.php(1335): WP->main('')
+#4 /Applications/MAMP/htdocs/bots/wp-blog-header.php(16): wp()
+#5 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310
+
+2023-11-09T20:08:00+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on null in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:268
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 268
+
+2023-11-09T20:10:49+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:268
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 268
+
+2023-11-09T20:10:52+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:268
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 268
+
+2023-11-09T20:19:53+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:272
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 272
+
+2023-11-09T20:36:21+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:267
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 267
+

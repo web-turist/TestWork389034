@@ -1,0 +1,2 @@
+2023-11-11T09:55:57+00:00 CRITICAL Cannot redeclare woocommerce_show_product_images() (previously declared in /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1564) in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 238
+

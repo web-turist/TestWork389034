@@ -1,0 +1,114 @@
+2023-11-10T05:30:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:294
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 294
+
+2023-11-10T07:33:42+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:296
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): custom_woocommerce_loop('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/themes/bots/woocommerce/archive-product.php(70): do_action('woocommerce_aft...')
+#4 /Applications/MAMP/htdocs/bots/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/bots/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 296
+
+2023-11-10T11:22:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function variation_settings_fields(), 1 passed in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:348
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): variation_settings_fields('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post-new.php(75): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 348
+
+2023-11-10T12:03:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_product_image_in_order_item(), 1 passed in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:342
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): display_product_image_in_order_item('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 342
+
+2023-11-10T12:04:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_product_image_in_order_item(), 1 passed in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:342
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): display_product_image_in_order_item('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 342
+
+2023-11-10T12:04:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_product_image_in_order_item(), 1 passed in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:342
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): display_product_image_in_order_item('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 342
+
+2023-11-10T12:05:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_product_image_in_order_item(), 1 passed in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:342
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): display_product_image_in_order_item('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 342
+
+2023-11-10T12:06:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_product_image_in_order_item(), 1 passed in /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php:342
+Stack trace:
+#0 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(310): display_product_image_in_order_item('')
+#1 /Applications/MAMP/htdocs/bots/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/bots/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /Applications/MAMP/htdocs/bots/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/bots/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /Applications/MAMP/htdocs/bots/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /Applications/MAMP/htdocs/bots/wp-admin/post.php(206): require('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/bots/wp-content/themes/bots/functions.php on line 342
+

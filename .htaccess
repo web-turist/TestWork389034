@@ -11,6 +11,8 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /bots/index.php [L]
+Header set Access-Control-Allow-Origin “*”
+#SetEnv HTTPS on
 </IfModule>
 
 # END WordPress
